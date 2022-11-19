@@ -13,6 +13,9 @@ inputs:
   FILE_PATH:
     description: "File path to docsearch"
     required: true
+  INDEX_NAME:
+    description: "INDEX_NAME"
+    required: true
 runs:
   using: "docker"
   image: "Dockerfile"
