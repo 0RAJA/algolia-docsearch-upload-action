@@ -1,6 +1,6 @@
 FROM alpine
 
-COPY entrypoint.sh /cmd/entrypoint.sh
-COPY cmd /cmd/cmd
+COPY entrypoint.sh /entrypoint.sh
+COPY cmd /cmd
 
 ENTRYPOINT ["/entrypoint.sh"]
