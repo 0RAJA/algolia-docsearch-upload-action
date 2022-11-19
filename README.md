@@ -14,7 +14,7 @@ algolia的ADMIN_API_KEY
 ```yml
       - uses: actions/checkout@v2
       - name: example
-        uses: github.com/0RAJA/algolia-docsearch-upload-action@master
+        uses: 0RAJA/algolia-docsearch-upload-action@master
         with:
           ADMIN_API_KEY: ${{ secrets.ADMIN_API_KEY }}
           APPLICATION_ID: ${{ secrets.APPLICATION_ID }}

@@ -10,7 +10,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: test
-        uses: ./
+        uses: 0RAJA/algolia-docsearch-upload-action@master
         with:
           ADMIN_API_KEY: ${{ secrets.ADMIN_API_KEY }}
           APPLICATION_ID: ${{ secrets.APPLICATION_ID }}
