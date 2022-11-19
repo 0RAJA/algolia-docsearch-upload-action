@@ -1,8 +1,8 @@
 #!/bin/sh
 set -eu
 
-chmod +x cmd/algolia
-chmod +x cmd/jq
+chmod +x /cmd/algolia
+chmod +x /cmd/jq
 
 FILE_PATH=$1
 INDEX_NAME=$2
