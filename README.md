@@ -1,4 +1,6 @@
 # algolia-docsearch-upload-action
+# cmd
+注意，暂时需要将cmd目录放置在项目根路径下
 # Inputs
 ## FILE_PATH
 相对于仓库为根路径的index文件路径
